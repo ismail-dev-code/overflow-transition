@@ -1,0 +1,21 @@
+.box{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid green;
+    /* overflow: scroll; */
+    /* overflow: scroll; */
+    overflow: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+.ellipse{
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid red;
+    margin: 0 auto;
+}
